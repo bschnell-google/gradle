@@ -63,7 +63,10 @@ dependencies {
         api(libs.googleHttpClientJackson2) { version { strictly(googleApiVersion) }}
         api(libs.googleOauthClient)     { version { strictly(googleApiVersion) }}
         api(libs.gradleProfiler)        { version { strictly("0.15.0") }}
-        api(libs.groovy)                { version { strictly("1.3-${libs.groovyVersion}"); because("emulating the Groovy 2.4-style groovy-all.jar, see https://github.com/gradle/gradle-groovy-all") }}
+        api(libs.groovy)                { version { strictly(libs.groovyVersion) }}
+        api(libs.groovyAnt)             { version { strictly(libs.groovyVersion) }}
+        api(libs.groovyJson)            { version { strictly(libs.groovyVersion) }}
+        api(libs.groovyXml)             { version { strictly(libs.groovyVersion) }}
         api(libs.gson)                  { version { strictly("2.8.5") }}
         api(libs.guava)                 { version { strictly("27.1-android"); because("JRE variant introduces regression - https://github.com/google/guava/issues/3223") }}
         api(libs.hamcrest)              { version { strictly("1.3") }}
