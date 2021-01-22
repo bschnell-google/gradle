@@ -22,6 +22,7 @@ dependencies {
     implementation(project(":tooling-api"))
 
     implementation(libs.groovy)
+    implementation(libs.groovyXml)
     implementation(libs.slf4jApi)
     implementation(libs.guava)
     implementation(libs.commonsLang)

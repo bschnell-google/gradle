@@ -66,6 +66,7 @@ dependencies {
         api(libs.groovy)                { version { strictly(libs.groovyVersion) }}
         api(libs.groovyAnt)             { version { strictly(libs.groovyVersion) }}
         api(libs.groovyJson)            { version { strictly(libs.groovyVersion) }}
+        api(libs.groovyTemplates)            { version { strictly(libs.groovyVersion) }}
         api(libs.groovyXml)             { version { strictly(libs.groovyVersion) }}
         api(libs.gson)                  { version { strictly("2.8.5") }}
         api(libs.guava)                 { version { strictly("27.1-android"); because("JRE variant introduces regression - https://github.com/google/guava/issues/3223") }}
@@ -162,8 +163,8 @@ dependencies {
         api(libs.mySqlConnector)        { version { strictly("8.0.17") }}
         api(libs.sampleCheck)           { version { strictly("0.12.6") }}
         api(libs.snappy)                { version { strictly("0.4") }}
-        api(libs.spock)                 { version { strictly("2.0-M4-groovy-2.5") }}
-        api(libs.spockJUnit4)           { version { strictly("2.0-M4-groovy-2.5") }}
+        api(libs.spock)                 { version { strictly("2.0-M4-groovy-3.0") }}
+        api(libs.spockJUnit4)           { version { strictly("2.0-M4-groovy-3.0") }}
         api(libs.sshdCore)              { version { strictly(sshdVersion) }}
         api(libs.sshdScp)               { version { strictly(sshdVersion) }}
         api(libs.sshdSftp)              { version { strictly(sshdVersion) }}

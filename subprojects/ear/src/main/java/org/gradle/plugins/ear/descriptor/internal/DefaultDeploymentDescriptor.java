@@ -18,7 +18,7 @@ package org.gradle.plugins.ear.descriptor.internal;
 import groovy.lang.Closure;
 import groovy.util.Node;
 import groovy.xml.XmlParser;
-import groovy.xml.QName;
+import groovy.namespace.QName;
 import org.gradle.api.Action;
 import org.gradle.api.UncheckedIOException;
 import org.gradle.api.XmlProvider;
