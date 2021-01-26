@@ -43,7 +43,6 @@ dependencyResolutionManagement {
                 excludeModule("com.google.j2objc", "j2objc-annotations")
             }
         }
-        mavenLocal()
         maven {
             name = "kotlinx"
             url = uri("https://dl.bintray.com/kotlin/kotlinx")

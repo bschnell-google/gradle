@@ -66,7 +66,7 @@ dependencies {
         api(libs.groovy)                { version { strictly(libs.groovyVersion) }}
         api(libs.groovyAnt)             { version { strictly(libs.groovyVersion) }}
         api(libs.groovyJson)            { version { strictly(libs.groovyVersion) }}
-        api(libs.groovyTemplates)            { version { strictly(libs.groovyVersion) }}
+        api(libs.groovyTemplates)       { version { strictly(libs.groovyVersion) }}
         api(libs.groovyXml)             { version { strictly(libs.groovyVersion) }}
         api(libs.gson)                  { version { strictly("2.8.5") }}
         api(libs.guava)                 { version { strictly("27.1-android"); because("JRE variant introduces regression - https://github.com/google/guava/issues/3223") }}
@@ -145,6 +145,7 @@ dependencies {
         api(libs.cglib)                 { version { strictly("3.2.6") }}
         api(libs.equalsverifier)        { version { strictly("2.1.6") }}
         api(libs.flightrecorder)        { version { strictly("7.0.0-alpha01") }}
+        api(libs.groovyTest)            { version { strictly(libs.groovyVersion) }}
         api(libs.guice)                 { version { strictly("2.0") }}
         api(libs.httpmime)              { version { strictly("4.5.10") }}
         api(libs.jacksonKotlin)         { version { strictly("2.9.2") }}

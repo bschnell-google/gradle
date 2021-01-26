@@ -60,6 +60,7 @@ abstract class ExternalModulesExtension {
     val gradleProfiler = "org.gradle.profiler:gradle-profiler"
     val groovy = "org.codehaus.groovy:groovy"
     val groovyAnt = "org.codehaus.groovy:groovy-ant"
+    val groovyTest = "org.codehaus.groovy:groovy-test"
     val groovyJson = "org.codehaus.groovy:groovy-json"
     val groovyTemplates = "org.codehaus.groovy:groovy-templates"
     val groovyXml = "org.codehaus.groovy:groovy-xml"

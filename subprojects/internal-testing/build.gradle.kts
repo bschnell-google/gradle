@@ -7,6 +7,7 @@ dependencies {
     implementation(project(":native"))
 
     implementation(libs.groovy)
+    implementation(libs.groovyJson)
     implementation(libs.groovyXml)
     implementation(libs.slf4jApi)
     implementation(libs.guava)

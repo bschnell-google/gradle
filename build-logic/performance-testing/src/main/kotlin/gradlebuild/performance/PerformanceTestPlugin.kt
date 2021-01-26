@@ -134,10 +134,6 @@ class PerformanceTestPlugin : Plugin<Project> {
             "performanceTestImplementation"(project(":internal-performance-testing"))
             junit("junit:junit:4.13")
         }
-
-        repositories {
-            mavenLocal()
-        }
     }
 
     private
